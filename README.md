@@ -1,50 +1,14 @@
-# paz - Python Advanced Project
+# Financial Risk Assessment Pipeline
 
 ## Description
 
-paz is an advanced Python project demonstrating best practices in Python development, including project structure, testing, documentation, and more.
-
-## Workflow
-
-```
-poetry run black .
-poetry run flake8
-poetry run mypy src
-poetry run pytest
-poetry run docs
-poetry run pre-commit run --all-files
-```
-
-
-## Installation
-
-To install paz, follow these steps:
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/paz.git
-   cd paz
-   ```
-
-2. Install with Poetry:
-   ```
-   poetry install
-   ```
+This is an advanced Python project demonstrating best practices in Python development, including project structure, testing, documentation, and more.
 
 ## Usage
 
-Here's a basic example of how to use paz:
-
-```python
-from paz import some_function
-
-result = some_function()
-print(result)
-```
-
 For more detailed usage instructions, please refer to the [full documentation](docs/build/html/index.html).
 
-## Development
+## Development Setup
 
 To set up the development environment:
 
@@ -70,10 +34,35 @@ poetry run docs
 
 Then open `docs/build/html/index.html` in your web browser.
 
+## Workflow
+
+```
+poetry run black .
+poetry run flake8
+poetry run mypy src
+poetry run pytest
+poetry run docs
+poetry run pre-commit run --all-files
+```
+
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+No contributions are being accepted at this time.
 
-## License
+## Project References
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- [Curriculum](./docs/curriculum.md)
+- [Project Plan](./docs/project_plan.md)
+- [White Paper](./docs/white_paper.md)
+- [Project Documentation](./docs/build/html/index.html)
+- [Workflow](./docs/workflow.md)
+
+## Techical References
+
+- [Poetry](https://python-poetry.org/)
+- [Black](https://black.readthedocs.io/en/stable/)
+- [Flake8](https://flake8.pycqa.org/en/latest/)
+- [Mypy](https://mypy.readthedocs.io/en/stable/)
+- [Pytest](https://docs.pytest.org/en/stable/)
+- [Sphinx](https://www.sphinx-doc.org/en/master/)
+- [Pre-commit](https://pre-commit.com/)
