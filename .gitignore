@@ -46,3 +46,9 @@ coverage.xml
 # Docker
 Dockerfile
 docker-compose.yml
+
+# Visual Studio Workspace
+*.code-workspace
+
+# Hypothesis
+.hypothesis/
