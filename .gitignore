@@ -52,3 +52,6 @@ docker-compose.yml
 
 # Hypothesis
 .hypothesis/
+
+# Sphinx
+docs/build/
