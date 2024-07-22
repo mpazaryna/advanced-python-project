@@ -1,5 +1,8 @@
 # Financial Risk Assessment Pipeline
 
+![Python CI](https://github.com/mpazaryna/advanced-python-project/actions/workflows/.ci.yml/badge.svg?branch=main)
+
+
 ## Description
 
 This is an advanced Python project demonstrating best practices in Python development, including project structure, testing, documentation, and more.
