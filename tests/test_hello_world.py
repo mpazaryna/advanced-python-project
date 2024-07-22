@@ -1,7 +1,8 @@
 """This module contains tests for the hello_world function."""
 
 import pytest
-from paz.hello_world import hello_world
+
+from paz.utils.hello_world import hello_world
 
 
 def test_hello_world_default():
