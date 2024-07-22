@@ -40,10 +40,10 @@
 
 ### Tasks (15 hours):
 - [x] (2h) Finalize project setup, including Poetry, pre-commit hooks, and CI pipeline
-- [ ] (3h) Study pytest and write initial tests for your existing proof of concept
+- [x] (3h) Study pytest and write initial tests for your existing proof of concept
 - [x] (2h) Implement code formatting with Black and linting with Flake8
 - [ ] (3h) Learn about property-based testing with Hypothesis and add some property-based tests
-- [ ] (3h) Study and implement test coverage reporting
+- [x] (3h) Study and implement test coverage reporting
 - [x] (2h) Learn and start using conventional commit syntax for all commits
 
 ### Resources:
