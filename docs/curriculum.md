@@ -1,15 +1,15 @@
-# Advanced Python 8-Week Learning Path
+# Learning Path
 
 ## Project Setup (Do this before Week 1)
 
-- [ ] Set up a monorepo using Poetry:
+- [x] Set up a monorepo using Poetry:
    ```bash
    mkdir advanced-python-project
    cd advanced-python-project
    poetry init
    ```
 
-- [ ] Create the following directory structure:
+- [x] Create the following directory structure:
    ```
    advanced-python-project/
    ├── docs/
@@ -21,13 +21,13 @@
    └── README.md
    ```
 
-- [ ] Set up pre-commit hooks for linting and formatting:
+- [x] Set up pre-commit hooks for linting and formatting:
    ```bash
    poetry add --dev pre-commit
    pre-commit install
    ```
 
-- [ ] Create a `.pre-commit-config.yaml` file with hooks for black, flake8, and conventional commits.
+- [x] Create a `.pre-commit-config.yaml` file with hooks for black, flake8, and conventional commits.
 
 - [ ] Set up continuous integration (CI) using GitHub Actions or GitLab CI to run tests automatically.
 
@@ -39,12 +39,12 @@
 - Understand and implement code quality standards
 
 ### Tasks (15 hours):
-- [ ] (2h) Finalize project setup, including Poetry, pre-commit hooks, and CI pipeline
+- [x] (2h) Finalize project setup, including Poetry, pre-commit hooks, and CI pipeline
 - [ ] (3h) Study pytest and write initial tests for your existing proof of concept
-- [ ] (2h) Implement code formatting with Black and linting with Flake8
+- [x] (2h) Implement code formatting with Black and linting with Flake8
 - [ ] (3h) Learn about property-based testing with Hypothesis and add some property-based tests
 - [ ] (3h) Study and implement test coverage reporting
-- [ ] (2h) Learn and start using conventional commit syntax for all commits
+- [x] (2h) Learn and start using conventional commit syntax for all commits
 
 ### Resources:
 - [Pytest documentation](https://docs.pytest.org/)
