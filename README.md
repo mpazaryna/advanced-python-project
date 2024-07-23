@@ -2,10 +2,9 @@
 
 ![Python CI](https://github.com/mpazaryna/advanced-python-project/actions/workflows/.ci.yml/badge.svg?branch=main)
 
-
 ## Description
 
-This is an advanced Python project demonstrating best practices in Python development, including project structure, testing, documentation, and more.
+This is an advanced Python project demonstrating best practices in Python development.
 
 ## Usage
 
@@ -16,14 +15,14 @@ For more detailed usage instructions, please refer to the [full documentation](d
 To set up the development environment:
 
 1. Ensure you have Poetry installed.
-2. Run `poetry install` to install all dependencies.
-3. Run `poetry run pre-commit install` to set up the git hooks.
+1. Run `poetry install` to install all dependencies.
+1. Run `poetry run pre-commit install` to set up the git hooks.
 
 ## Testing
 
 Run the tests with:
 
-```
+```bash
 poetry run pytest
 ```
 
@@ -31,7 +30,7 @@ poetry run pytest
 
 To build the documentation:
 
-```
+```bash
 poetry run docs
 ```
 
@@ -39,7 +38,7 @@ Then open `docs/build/html/index.html` in your web browser.
 
 ## Workflow
 
-```
+```bash
 poetry run black .
 poetry run flake8
 poetry run mypy src

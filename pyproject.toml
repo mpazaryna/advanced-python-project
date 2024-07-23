@@ -21,6 +21,8 @@ sphinx = "^7.4.7"
 sphinx-rtd-theme = "^2.0.0"
 coverage = "^7.2.0"
 pytest-cov = "^4.0.0"
+mdformat = "^0.7.16"
+pymarkdownlnt = "^0.9.11"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -38,6 +40,7 @@ match-dir = "[^\\.].*"
 
 [tool.poetry.scripts]
 docs = "scripts.build_docs:main"
+fix-markdown = "scripts.markdown_fixer:main"
 
 [tool.mypy]
 ignore_missing_imports = true

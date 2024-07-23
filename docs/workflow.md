@@ -1,79 +1,92 @@
 # Project Workflow
 
 1. **Install dependencies**:
-   ```
+
+   ```bash
    poetry install
    ```
    This installs all project dependencies specified in `pyproject.toml`.
 
 2. **Run tests**:
-   ```
+
+   ```bash
    poetry run pytest
    ```
    This runs all your pytest tests.
 
 3. **Format code with Black**:
-   ```
+
+   ```bash
    poetry run black .
    ```
    This formats all Python files in your project according to Black's style guide.
 
 4. **Check for linting issues with Flake8**:
-   ```
+
+   ```bash
    poetry run flake8 .
    ```
    This checks your code for style and quality issues.
 
 5. **Run type checking with MyPy**:
-   ```
+
+   ```bash
    poetry run mypy src tests
    ```
    This performs static type checking on your Python code.
 
 6. **Run pre-commit hooks manually**:
-   ```
+
+   ```bash
    poetry run pre-commit run --all-files
    ```
    This runs all pre-commit hooks on all files, useful for checking your entire project.
 
 7. **Install pre-commit hooks** (do this once after cloning the repository):
-   ```
+
+   ```bash
    poetry run pre-commit install -t pre-commit -t commit-msg
    ```
    This installs the pre-commit hooks so they run automatically before each commit.
 
 8. **Update dependencies**:
-   ```
-   poetry update
+
+   ```bash
+   poetry run poetry update
    ```
    This updates your project dependencies to their latest versions within the constraints specified in `pyproject.toml`.
 
 9. **Add a new dependency**:
-   ```
+
+   ```bash
    poetry add <package-name>
    ```
    This adds a new package to your project dependencies.
 
 10. **Add a new development dependency**:
-    ```
+
+    ```bash
     poetry add --dev <package-name>
     ```
     This adds a new package to your development dependencies.
 
 11. **Run your main script** (assuming `hello_world.py` is your main script):
-    ```
+
+    ```bash
     poetry run python src/paz/hello_world.py
     ```
     This runs your main Python script.
 
 12. **Activate the virtual environment**:
-    ```
+
+    ```bash
     poetry shell
     ```
     This activates the project's virtual environment for the current terminal session.
 
 13. **Check for security vulnerabilities** (if you've installed safety):
-    ```
+
+    ```bash
     poetry run safety check
     ```
     This checks your dependencies for known security vulnerabilities.

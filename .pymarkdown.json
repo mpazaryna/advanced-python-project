@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "line-length": {
+      "line_length": 100,
+      "stern": false
+    }
+  },
+  "disable-rules": [
+    "MD013",
+    "MD024",
+    "MD026",
+    "MD040"
+  ]
+}
