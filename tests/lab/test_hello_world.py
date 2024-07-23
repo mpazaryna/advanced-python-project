@@ -15,6 +15,11 @@ def test_hello_world_custom_name():
     assert hello_world("Alice") == "Hello, Alice!"
 
 
+def test_hello_world_custom_name_second():
+    """Test the hello_world function with a custom name."""
+    assert hello_world("Flubba") == "Hello, Flubba!"
+
+
 @pytest.mark.parametrize(
     "name, expected",
     [
