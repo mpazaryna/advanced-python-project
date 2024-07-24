@@ -58,6 +58,7 @@ No contributions are being accepted at this time.
 - [White Paper](./docs/white_paper.md)
 - [Project Documentation](./docs/build/html/index.html)
 - [Workflow](./docs/workflow.md)
+- [Financial Risk Assessment: Perplexity.ai](https://www.perplexity.ai/search/what-is-financial-risk-assessm-D7YD5H32TIOXZthVY9zNjQ)
 
 ## Techical References
 

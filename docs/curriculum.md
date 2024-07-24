@@ -31,7 +31,7 @@
 - Learn to use `asyncio` for concurrent programming
 - Apply async concepts to your project
 
-### Tasks (15 hours)
+### Tasks (18 hours)
 
 - \[ \] (3h) Study asyncio basics and write simple async functions
 - \[ \] (3h) Implement an asynchronous component in your project (e.g., async data fetching or
@@ -39,11 +39,13 @@
 - \[ \] (3h) Learn about and implement coroutines and event loops
 - \[ \] (3h) Study and implement error handling in async code
 - \[ \] (3h) Optimize existing synchronous code in your project using asyncio
+- \[ \] (3h) Study risk assessement curricula
 
 ### Resources
 
 - [Python asyncio documentation](https://docs.python.org/3/library/asyncio.html)
 - [Real Python's asyncio Guide](https://realpython.com/async-io-python/)
+- [Perplexity.ai Risk Assessment Collection](https://www.perplexity.ai/collections/financial-risk-assessment-.R_v0u6mQg6tO8y3yREz1g)
 
 ## Week 3: Advanced Object-Oriented Programming
 
