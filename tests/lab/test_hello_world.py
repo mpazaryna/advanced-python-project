@@ -2,7 +2,7 @@
 
 import pytest
 
-from paz.utils.hello_world import hello_world
+from paz.lab.hello_world import hello_world
 
 
 def test_hello_world_default():

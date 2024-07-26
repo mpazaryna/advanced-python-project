@@ -94,3 +94,9 @@
 Remember, the pre-commit hooks (including Black, Flake8, and MyPy) will run automatically when you try to make a commit, catching issues before they make it into your repository. However, you can always run these tools manually as shown above to check your code at any time.
 
 This workflow allows you to maintain code quality, ensure proper formatting, catch type errors, and keep your dependencies up to date throughout your development process.
+
+## Generate Mermaid docs
+
+```sh
+python scripts/mermaid_to_png.py docs/diagrams/project_structure.mmd flubba.png
+```

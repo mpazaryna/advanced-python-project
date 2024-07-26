@@ -1,7 +1,7 @@
 import pytest
 
-from paz.lab.async_scraper import fetch_wikipedia_pages, save_wikipedia_pages
 from paz.utils.file_utils import get_project_root
+from paz.utils.web_scraper import fetch_wikipedia_pages, save_wikipedia_pages
 
 
 @pytest.fixture

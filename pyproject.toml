@@ -7,8 +7,12 @@ packages = [{include = "paz", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-
 beautifulsoup4 = "^4.12.3"
+diagrams = "^0.23.4"
+
+pillow = "^10.4.0"
+aiofiles = "^24.1.0"
+tqdm = "^4.66.4"
 [tool.poetry.group.dev.dependencies]
 hypothesis = "^6.108.3"
 ipykernel = "^6.29.5"
@@ -25,8 +29,8 @@ pytest-cov = "^4.0.0"
 mdformat = "^0.7.16"
 pymarkdownlnt = "^0.9.11"
 pytest-asyncio = "^0.23.8"
-
 aiohttp = "^3.9.5"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
