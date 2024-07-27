@@ -58,3 +58,6 @@ docs/build/
 data/test_file.txt
 tmp/test_file.txt
 tmp/test_file_tuples.txt
+data/test_file.txt
+tmp/test_file.txt
+tmp/test_file_tuples.txt
