@@ -6,7 +6,8 @@ from hypothesis import given
 from hypothesis import strategies as st
 from PIL import Image
 
-from paz.images.processors import load_image
+# from paz.images.processors import load_image
+from paz.images.load import load_image
 
 
 @pytest.mark.asyncio
