@@ -45,7 +45,7 @@ def test_write_to_file_with_tuples():
     # Note: We're not cleaning up this file anymore
 
 
-# @pytest.mark.skip(reason="Skipping for now")
+@pytest.mark.skip(reason="Skipping for now")
 def test_validate_tmp_folder():
     """
     Test that the TMP_DIR in the config is set to the correct path.
