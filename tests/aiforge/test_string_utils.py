@@ -1,10 +1,10 @@
 # File: tests/test_string_utils.py
 """Tests for the paz.utils.string_utils module."""
 
+# from paz.utils.string_utils import reverse_string
+from aiforge.utils.string_utils import reverse_string
 from hypothesis import given
 from hypothesis import strategies as st
-
-from paz.utils.string_utils import reverse_string
 
 
 @given(st.text())

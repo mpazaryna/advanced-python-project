@@ -1,7 +1,7 @@
 import pytest
+from aiforge.utils.web_scraper import fetch_wikipedia_pages, save_wikipedia_pages
 
 from paz.utils.file_utils import get_project_root
-from paz.utils.web_scraper import fetch_wikipedia_pages, save_wikipedia_pages
 
 
 @pytest.fixture
@@ -57,10 +57,10 @@ async def test_fetch_save_and_validate_wikipedia_pages(wikipedia_urls, output_fi
         assert "asynchronous" in content.lower(), f"'asynchronous' not in {file_path}"
 
 
-@pytest.fixture(autouse=True)
-def cleanup(output_files):
-    yield
-    # Clean up files after tests
-    for file_path in output_files.values():
-        if file_path.exists():
-            file_path.unlink()
+# @pytest.fixture(autouse=True)
+# def cleanup(output_files):
+#    yield
+# Clean up files after tests
+#    for file_path in output_files.values():
+#        if file_path.exists():
+#            file_path.unlink()

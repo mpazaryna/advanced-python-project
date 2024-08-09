@@ -47,6 +47,12 @@ poetry run docs
 poetry run pre-commit run --all-files
 ```
 
+## AI Forge
+
+```bash
+poetry update aiforge
+```
+
 ## Contributing
 
 No contributions are being accepted at this time.
@@ -59,6 +65,7 @@ No contributions are being accepted at this time.
 - [Project Documentation](./docs/build/html/index.html)
 - [Workflow](./docs/workflow.md)
 - [Financial Risk Assessment: Perplexity.ai](https://www.perplexity.ai/search/what-is-financial-risk-assessm-D7YD5H32TIOXZthVY9zNjQ)
+- [AI Forge](https://github.com/mpazaryna/aiforge)
 
 ## Techical References
 
